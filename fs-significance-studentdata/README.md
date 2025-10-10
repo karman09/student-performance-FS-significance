@@ -42,7 +42,7 @@ pip install -r requirements.txt
 ---
 
 ## ▶️ Usage Example (Colab or Local)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/karman09/student-performance-FS-significance/blob/main/fs-significance-studentdata/fs_significance_studentdata_colab.ipynb)
+
 
 
 
