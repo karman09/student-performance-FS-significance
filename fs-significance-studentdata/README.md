@@ -46,7 +46,7 @@ in `/content/` or your local path.
 2️⃣ Run the master script:
 
 ```bash
-python fs_significance/full_master_v3_8_ABC_ONLY.py
+python fs_significance/python fs_significance/full_master_v3_8_FSsignif.py
 ```
 
 3️⃣ The program generates:
