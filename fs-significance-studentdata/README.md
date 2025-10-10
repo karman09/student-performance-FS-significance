@@ -103,7 +103,7 @@ Published in *Proceedings of the 5th Future Business Technology Conference (FBTC
 
 ## ⚖️ License
 
-Copyright (c) 2025 Kevser  
+Copyright (c) 2025 Kevser ARMAN TUNÇER
 
 This project is licensed under the terms of the **MIT License (MIT)**.
 
