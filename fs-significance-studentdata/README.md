@@ -14,6 +14,8 @@ a full statistical significance framework for comparing **feature selection meth
 (Varimax, LASSO, RFE, Tree Importance, etc.) across binary, five-level, and regression tasks.
 
 --- 🔍 For the full implementation, see [full_master_v3_8_FSsignif.py](https://github.com/karman09/student-performance-FS-significance/blob/main/fs-significance-studentdata/full_master_v3_8_FSsignif.py)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/karman09/student-performance-FS-significance/blob/main/fs-significance-studentdata/fs_significance_studentdata_colab.ipynb)
+
 
 
 
