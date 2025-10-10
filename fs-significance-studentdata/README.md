@@ -13,7 +13,8 @@ This repository reproduces and extends **Cortez & Silva (2008)** by introducing
 a full statistical significance framework for comparing **feature selection methods**
 (Varimax, LASSO, RFE, Tree Importance, etc.) across binary, five-level, and regression tasks.
 
----🔍 For a readable demo version, see [`full_master_v3_8_FSsignif_demo.py`](./full_master_v3_8_FSsignif_demo.py)
+--- 🔍 For the full implementation, see [full_master_v3_8_FSsignif.py](https://github.com/karman09/student-performance-FS-significance/blob/main/fs-significance-studentdata/full_master_v3_8_FSsignif.py)
+
 
 
 ## 🔹 Overview
