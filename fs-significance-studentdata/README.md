@@ -25,7 +25,7 @@ a full statistical significance framework for comparing **feature selection meth
 - **Table 5** — Regression *(RMSE)*  
 - **Setups:** A_All, B_NoG2, C_NoG1G2  
 - **Feature selection:** Varimax, LASSO, RFE, TreeImp, Min2, Union_All, Intersection_All  
-- **Significance tests:** Friedman χ² and pairwise Wilcoxon (p < 0.05)  
+- **Significance tests:** “Significance tests: paired t-test (p < 0.05)”
 - **Leak-free:** Each fold applies inner feature selection independently  
 - **Outputs:** ±95% CI, significance marks, and CSV exports
 
