@@ -4,7 +4,7 @@ setup(
     name="fs-significance-studentdata",
     version="1.0.0",
     description="Feature Selection Significance Analysis on Student Performance Dataset",
-    author="Kevser",
+    author="Kevser ARMAN TUNÇER",
     license="MIT",
     packages=find_packages(),
     install_requires=[
