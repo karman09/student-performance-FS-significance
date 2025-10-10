@@ -1,4 +1,4 @@
-# fs-significance-studentdata
+# Significance Analysis of Feature Selection on Student Performance
 
 **Feature-Selection Significance Analysis on the UCI Student Performance Dataset**
 *(Leak-free fold-internal feature selection + Friedman & Wilcoxon tests)*
