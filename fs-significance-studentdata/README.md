@@ -24,7 +24,32 @@ and **statistical significance testing** to improve interpretability and reliabi
 - **H4:** Performance differences among FS methods are statistically significant (p < 0.05).  
 - **H5:** Hybrid FS methods (Union / Intersection) provide the best accuracy–stability trade-off.  
 
+## 🧩 Theoretical and Methodological Contributions
+
+1. **Methodological Extension:**  
+   This work builds upon *Cortez & Silva (2008)* by incorporating advanced **feature selection (FS)** strategies  
+   and **statistical validation** techniques, offering a more rigorous evaluation pipeline.
+
+2. **Leak-Free Nested CV Framework:**  
+   Introduces a **fold-inner feature selection** procedure to ensure leak-free evaluation,  
+   strengthening the statistical validity and reproducibility of the original framework.
+
+3. **Comparative FS Evaluation:**  
+   Conducts a systematic comparison of multiple FS algorithms (Varimax, LASSO, RFE, TreeImp, Union, Intersection),  
+   highlighting their relative influence on predictive performance and interpretability.
+
+4. **Significance-Based Model Assessment:**  
+   Extends beyond accuracy metrics by employing **Friedman χ² and Wilcoxon-Holm** tests  
+   to statistically confirm differences in performance, rather than relying on descriptive means alone.
+
+5. **Empirical Validation and Transparency:**  
+   Provides an open-source, reproducible implementation (Python / Colab / GitHub),  
+   encouraging methodological transparency and reuse in educational data mining research.
+
 ---
+
+> 💡 *Overall, this research bridges methodological robustness with empirical interpretability —  
+> offering both replication and meaningful extension of the original 2008 study.*
 
 ## 📊 Results & Hypothesis Validation
 
