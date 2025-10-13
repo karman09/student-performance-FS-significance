@@ -1,5 +1,5 @@
-#  Assessing the Methodological and Statistical Impact of Feature Selection in Student Performance Modeling: Extension of Cortez & Silva (2008)
-### 🧠 Methodological Extension of Cortez & Silva (2008)
+#  Assessing the Methodological and Statistical Impact of Feature Selection in Student Performance Modeling
+
 **Author:** Kevser ARMAN TUNÇER • **Year:** 2025  
 📜 License: [MIT License](LICENSE)
 
