@@ -44,17 +44,13 @@ Based on the empirical results obtained from `FULL MASTER v3.9_FSbased` (Tables 
 - Excluding grade variables (G1, G2) significantly reduces predictive power.  
 - All FS-based models outperform the Naive Predictor in both classification and regression.  
 
----
 ## 📊 Example Outputs
 
 | Table | Task Type | Metric | Visualization |
 |:------|:-----------|:--------|:---------------|
-| 🟩 **Table 1** | Binary Classification | PCC% | <img src="https://github.com/karman09/student-performance-FS-significance/blob/main/fs-significance-studentdata/fs_significance/ikili.png?raw=true" width="500"><br>_Binary classification results (FS-based accuracy comparison)_ |
-
-| 🟨 **Table 2** | Five-Level Classification | PCC% | <img src="https://github.com/karman09/student-performance-FS-significance/blob/main/fs-significance-studentdata/fs_significance/five.png?raw=true" width="500"><br>_Five-level classification performance_ |
-
-| 🟦 **Table 3** | Regression | RMSE ↓ | <img src="https://github.com/karman09/student-performance-FS-significance/blob/main/fs-significance-studentdata/fs_significance/reg.png?raw=true" width="500"><br>_Lower RMSE indicates better performance_ |
-
+| 🟩 **Table 1** | Binary Classification | PCC% | <img src="https://raw.githubusercontent.com/karman09/student-performance-FS-significance/main/fs-significance-studentdata/fs_significance/ikili.png" width="500"><br>_Binary classification results (FS-based accuracy comparison)_ |
+| 🟨 **Table 2** | Five-Level Classification | PCC% | <img src="https://raw.githubusercontent.com/karman09/student-performance-FS-significance/main/fs-significance-studentdata/fs_significance/five.png" width="500"><br>_Five-level classification performance_ |
+| 🟦 **Table 3** | Regression | RMSE ↓ | <img src="https://raw.githubusercontent.com/karman09/student-performance-FS-significance/main/fs-significance-studentdata/fs_significance/reg.png" width="500"><br>_Lower RMSE indicates better performance_ |
 
 ---
 
