@@ -45,14 +45,13 @@ Based on the empirical results obtained from `FULL MASTER v3.9_FSbased` (Tables 
 - All FS-based models outperform the Naive Predictor in both classification and regression.  
 
 ---
-
 ## 📊 Example Outputs
 
 | Table | Task Type | Metric | Visualization |
 |:------|:-----------|:--------|:---------------|
-| 🟩 **Table 1** | Binary Classification | PCC% | ![Binary Results](fs-significance-studentdata/fs_significance/ikili.png)<br>_Binary classification results (FS-based accuracy comparison)_ |
-| 🟨 **Table 2** | Five-Level Classification | PCC% | ![Five-Level Results](fs-significance-studentdata/fs_significance/five.png)<br>_Five-level classification performance_ |
-| 🟦 **Table 3** | Regression | RMSE ↓ | ![Regression Results](fs-significance-studentdata/fs_significance/reg.png)<br>_Lower RMSE indicates better performance_ |
+| 🟩 **Table 1** | Binary Classification | PCC% | <img src="fs-significance-studentdata/fs_significance/ikili.png" width="500"><br>_Binary classification results (FS-based accuracy comparison)_ |
+| 🟨 **Table 2** | Five-Level Classification | PCC% | <img src="fs-significance-studentdata/fs_significance/five.png" width="500"><br>_Five-level classification performance_ |
+| 🟦 **Table 3** | Regression | RMSE ↓ | <img src="fs-significance-studentdata/fs_significance/reg.png" width="500"><br>_Lower RMSE indicates better performance_ |
 
 ---
 
