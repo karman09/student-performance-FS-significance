@@ -42,9 +42,6 @@ and **statistical significance testing** to improve interpretability and reliabi
    Extends beyond accuracy metrics by employing **Friedman χ² and Wilcoxon-Holm** tests  
    to statistically confirm differences in performance, rather than relying on descriptive means alone.
 
-5. **Empirical Validation and Transparency:**  
-   Provides an open-source, reproducible implementation (Python / Colab / GitHub),  
-   encouraging methodological transparency and reuse in educational data mining research.
 
 ---
 
