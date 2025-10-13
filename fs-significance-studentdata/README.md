@@ -50,9 +50,9 @@ Based on the empirical results obtained from `FULL MASTER v3.9_FSbased` (Tables 
 
 | Table | Task Type | Metric | Visualization |
 |:------|:-----------|:--------|:---------------|
-| 🟩 **Table 1** | Binary Classification | PCC% | ![Binary](results/Table1_Binary.png) |
-| 🟨 **Table 2** | Five-Level Classification | PCC% | ![Five-Level](results/Table2_FiveLevel.png) |
-| 🟦 **Table 3** | Regression | RMSE ↓ | ![Regression](results/Table3_Regression.png) |
+| 🟩 **Table 1** | Binary Classification | PCC% | ![Binary](ikili.png) |
+| 🟨 **Table 2** | Five-Level Classification | PCC% | ![Five-Level](five.png) |
+| 🟦 **Table 3** | Regression | RMSE ↓ | ![Regression](reg.png) |
 
 ---
 
