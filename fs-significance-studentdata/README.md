@@ -8,7 +8,7 @@ GitHub Repository: [https://github.com/karman09/student-performance-FS-significa
 
 ### 🧠 Research Aim and Scope
 
-This study replicates and extends *Cortez & Silva (2008)* by developing a **feature-selection-based framework** that integrates *fold-inner (leak-free) FS*, *nested cross-validation*, and *statistical significance testing*.
+This study extends *Cortez & Silva (2008)* by developing a **feature-selection-based framework** that integrates *fold-inner (leak-free) feature selection (FS)*, *nested cross-validation*, and *statistical significance testing*.
 
 The project compares six FS strategies (Varimax, LASSO, RFE, TreeImp, Union, Intersection) across multiple setups (*A, B, C*) and tasks (binary, five-level, regression).
 
