@@ -6,13 +6,54 @@
 Arman Tunçer, K. (2025). *Assessing the Methodological and Statistical Impact of Feature Selection in Student Performance Modeling.*  
 GitHub Repository: [https://github.com/karman09/student-performance-FS-significance](https://github.com/karman09/student-performance-FS-significance)
 
+🎯 Research Aim and Scope
 
----
+This study replicates and extends Cortez & Silva (2008) by developing a feature-selection-based analytical framework that integrates fold-inner (leak-free) feature selection, nested cross-validation, and statistical significance testing.
+
+The overarching aim is to establish a statistically validated, interpretable, and reproducible benchmark for student performance prediction.
+
+Unlike prior studies, which primarily relied on descriptive accuracy metrics, this research emphasizes methodological robustness and empirical interpretability by systematically comparing multiple feature selection mechanisms under consistent, leak-free experimental conditions.
+
+Specifically, the study addresses three methodological limitations observed in prior replication efforts:
+
+Feature redundancy and data leakage: Previous frameworks applied full-feature models without inner-fold filtering, leading to inflated estimates.
+
+Lack of statistical inference: Model differences were reported descriptively without testing statistical significance.
+
+Inconsistent FS validation: The relative stability and reliability of feature selection techniques across models were not systematically examined.
+
+🎯 Main Research Objectives
+
+To evaluate the impact of different feature selection strategies — Varimax, LASSO, RFE, Tree Importance, Union, and Intersection — on predictive performance across multiple setups (A_All, B_NoG2, C_NoG1G2) for binary, five-level, and regression tasks.
+
+To determine whether feature-selection-based (FS-based) models produce statistically significant improvements over baseline (Naive) predictors in terms of both accuracy (PCC %) and error (RMSE).
+
+To assess the stability and consistency of FS-driven model rankings using Friedman χ² and Wilcoxon–Holm corrected significance tests.
+
+🧩 Theoretical and Methodological Contributions
+1. Leak-Free Nested Evaluation
+
+Implements a fold-inner feature selection procedure within nested cross-validation to prevent data leakage and obtain unbiased, reproducible estimates of model performance.
+
+2. Comparative FS Mechanism Analysis
+
+Provides a unified evaluation environment for four distinct FS mechanisms — statistical loading (Varimax), regularization (LASSO), recursive elimination (RFE), and ensemble importance (TreeImp) — and their hybrid combinations (Union_All, Intersection_All).
+
+3. Significance-Based Model Validation
+
+Extends beyond descriptive metrics by applying Friedman χ² and Wilcoxon–Holm tests to verify whether performance differences among FS-based models are statistically meaningful.
+
+4. Cross-Task Generalizability
+
+Evaluates the consistency of FS effects across binary classification, five-level classification, and regression (RMSE) tasks, ensuring robustness across problem types.
+
+💡 In summary, this research bridges methodological rigor with empirical interpretability, offering a statistically validated and reproducible methodological extension of Cortez & Silva (2008) — grounded in modern feature-selection and significance-testing practices.
+
 
 ## 🎯 Research Aim and Hypotheses
 
-This study replicates and extends *Cortez & Silva (2008)* by integrating **feature-selection-based modeling**  
-and **statistical significance testing** to improve interpretability and reliability of student performance prediction.
+This study replicates and extends Cortez & Silva (2008) by integrating feature-selection-based modeling and statistical significance testing to enhance the interpretability, 
+robustness, and reliability of student performance prediction.
 
 ### Main Objectives
 - Evaluate how different **feature selection strategies** (Varimax, LASSO, RFE, Tree Importance, Union, Intersection)  
