@@ -1,13 +1,5 @@
 #  Assessing the Methodological and Statistical Impact of Feature Selection in Student Performance Modeling
 
-**Author:** Kevser Arman Tunçer  
-**Year:** 2025  
-**License:** MIT License  
-**How to Cite:**  
-Arman Tunçer, K. (2025). *Assessing the Methodological and Statistical Impact of Feature Selection in Student Performance Modeling.*  
-GitHub Repository: [https://github.com/karman09/student-performance-FS-significance](https://github.com/karman09/student-performance-FS-significance)
-
-
 ### 🎯 Research Aim and Scope
 
 This study extends *Cortez & Silva (2008)* by developing a **feature-selection-based framework** that integrates *fold-inner (leak-free) feature selection (FS)*, *nested cross-validation*, and *statistical significance testing*.
@@ -76,7 +68,7 @@ Open directly in Colab 👉
 
 ## 🧾 How to Cite This Work
 
-Arman Tunçer, K., 2025. Python-based feature selection and significance testing framework for student performance modeling. GitHub repository.
+Arman Tunçer, K., 2025. Assessing the Methodological and Statistical Impact of Feature Selection in Student Performance Modeling. GitHub repository.
 URL: https://github.com/karman09/student-performance-FS-significance
 
 ---
