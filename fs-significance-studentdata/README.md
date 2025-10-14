@@ -66,8 +66,7 @@ Open directly in Colab 👉
 
 ---
 
-## 🧾 How to Cite This Work
-
+## 🧾 Citation
 Arman Tunçer, K., 2025. Assessing the Methodological and Statistical Impact of Feature Selection in Student Performance Modeling. GitHub repository.
 URL: https://github.com/karman09/student-performance-FS-significance
 
