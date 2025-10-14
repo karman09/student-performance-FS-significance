@@ -6,13 +6,29 @@
 Arman Tunçer, K. (2025). *Assessing the Methodological and Statistical Impact of Feature Selection in Student Performance Modeling.*  
 GitHub Repository: [https://github.com/karman09/student-performance-FS-significance](https://github.com/karman09/student-performance-FS-significance)
 
-### 🧠 Research Aim and Scope
+### 🎯 Research Aim and Scope
 
 This study extends *Cortez & Silva (2008)* by developing a **feature-selection-based framework** that integrates *fold-inner (leak-free) feature selection (FS)*, *nested cross-validation*, and *statistical significance testing*.
 
-The project compares six FS strategies (Varimax, LASSO, RFE, TreeImp, Union, Intersection) across multiple setups (*A, B, C*) and tasks (binary, five-level, regression).
+The project compares six FS strategies — **Varimax, LASSO, RFE, Tree Importance, Union, and Intersection** — across multiple setups (**A_All, B_NoG2, C_NoG1G2**) and tasks (binary classification, five-level classification, and regression).
 
-By applying *Friedman χ²* and *Wilcoxon–Holm* tests, the study provides **statistically validated, reproducible, and interpretable** model comparisons — offering a modernized methodological extension of the original 2008 paper.
+Five **machine learning models** were used to evaluate FS effects on predictive performance: *Multi-Layer Perceptron (MLP), Support Vector Machine (SVM), Decision Tree (DT), Random Forest (RF),* and *XGBoost (XGB)*.  
+A rule-based **Naive Predictor (NVref)** served as a baseline for statistical comparison.
+
+By applying **Friedman χ²** and **Wilcoxon–Holm** tests, the study provides statistically validated, reproducible, and interpretable model comparisons — offering a modernized methodological extension of the original 2008 paper.
+
+---
+### ⚙️ Cross-Validation & Significance Testing
+
+- **Nested Evaluation:**  
+  - `RepeatedStratifiedKFold` *(10×20)* for classification  
+  - `RepeatedKFold` *(10×20)* for regression  
+- **Significance Tests:**  
+  - *Friedman χ²* for overall FS comparison  
+  - *Wilcoxon (Holm-corrected)* for pairwise significance  
+- **Result Markers:**  
+  - ▲ (best mean), † (statistically superior), * (better than baseline)
+
 
 
 ### 🧠 Data-Driven Hypotheses
