@@ -1,10 +1,12 @@
 #  Assessing the Methodological and Statistical Impact of Feature Selection in Student Performance Modeling
 
-**Author:** Kevser ARMAN TUNÇER • **Year:** 2025  
-📜 License: [MIT License](LICENSE)
-📖 **How to Cite:**  
+**Author:** Kevser Arman Tunçer  
+**Year:** 2025  
+**License:** MIT License  
+**How to Cite:**  
 Arman Tunçer, K. (2025). *Assessing the Methodological and Statistical Impact of Feature Selection in Student Performance Modeling.*  
 GitHub Repository: [https://github.com/karman09/student-performance-FS-significance](https://github.com/karman09/student-performance-FS-significance)
+
 
 ### 🎯 Research Aim and Scope
 
