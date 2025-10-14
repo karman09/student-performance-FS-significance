@@ -76,11 +76,11 @@ Open directly in Colab 👉
 
 ## 🧾 How to Cite This Work
 
-Cortez, P., & Silva, A. (2008). *Using Data Mining to Predict Secondary School Student Performance.*  
-Arman Tunçer, K. (2025). *Student Performance – Feature Selection & Significance (Extension of Cortez & Silva, 2008).* GitHub Repository.
+Arman Tunçer, K., 2025. Python-based feature selection and significance testing framework for student performance modeling. GitHub repository.
+URL: https://github.com/karman09/student-performance-FS-significance
 
 ---
-
-## 📁 Repository Structure
+### References
+Cortez, P., & Silva, A. (2008). *Using Data Mining to Predict Secondary School Student Performance.*  
 
 
