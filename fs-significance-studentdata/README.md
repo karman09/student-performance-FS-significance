@@ -15,7 +15,7 @@ The project compares six FS strategies — **Varimax, LASSO, RFE, Tree Importanc
 Five **machine learning models** were used to evaluate FS effects on predictive performance: *Multi-Layer Perceptron (MLP), Support Vector Machine (SVM), Decision Tree (DT), Random Forest (RF),* and *XGBoost (XGB)*.  
 A rule-based **Naive Predictor (NVref)** served as a baseline for statistical comparison.
 
-By applying **Friedman χ²** and **Wilcoxon–Holm** tests, the study provides statistically validated, reproducible, and interpretable model comparisons — offering a modernized methodological extension of the original 2008 paper.
+By applying **Friedman χ²** and **Wilcoxon–Holm** tests, the study provides statistically validated, reproducible, and interpretable model comparisons — offering a modernized methodological extension of the reference study.
 
 ---
 ### ⚙️ Cross-Validation & Significance Testing
