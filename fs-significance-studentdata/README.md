@@ -21,12 +21,6 @@ and **statistical significance testing** to improve interpretability and reliabi
   over baseline (Naive) predictors.  
 - Assess consistency of model rankings using **Friedman and Wilcoxon Holm-corrected tests**.  
 
-### Data-Driven Hypotheses
-- **H1:** FS-based models outperform the Naive Predictor (higher PCC%, lower RMSE).  
-- **H2:** Varimax and LASSO outperform other FS methods.  
-- **H3:** Removing G1 and G2 grade variables significantly reduces model performance.  
-- **H4:** Performance differences among FS methods are statistically significant (p < 0.05).  
-- **H5:** Hybrid FS methods (Union / Intersection) provide the best accuracy–stability trade-off.  
 
 ## 🧩 Theoretical and Methodological Contributions
 
@@ -47,28 +41,31 @@ and **statistical significance testing** to improve interpretability and reliabi
    to statistically confirm differences in performance, rather than relying on descriptive means alone.
 
 
----
-
 > 💡 *Overall, this research bridges methodological robustness with empirical interpretability —  
-> offering both replication and meaningful extension of the original 2008 study.*
+> offering  meaningful extension of the original 2008 study.*
 
-## 📊 Results & Hypothesis Validation
+### 🧠 Data-Driven Hypotheses
 
-Based on the empirical results obtained from `FULL MASTER v3.9_FSbased` (Tables 1–3):
+| Code | Hypothesis |
+|------|-------------|
+| **H1** | Models with feature selection (FS) outperform the Naive Predictor, showing higher accuracy (PCC%) and lower error (RMSE). |
+| **H2** | Different feature selection methods exhibit significant performance variations, indicating that the effectiveness of FS depends on the algorithmic mechanism and selection strategy. |
+| **H3** | Removing G1 and G2 grade variables significantly reduces predictive accuracy. |
+| **H4** | Performance differences among FS methods are statistically significant (p < 0.05). |
+| **H5** | Hybrid FS approaches (Union_All, Intersection_All) achieve the best accuracy–stability balance and demonstrate the highest cross-model consistency. |
 
-| **Hypothesis** | **Expected Outcome** | **Empirical Evidence (Tables 1–3)** | **Conclusion** |
-|:----------------|:---------------------|:------------------------------------|:----------------|
-| **H1** | FS > NVref | FS methods achieved higher PCC (+2–10%) and lower RMSE. | ✅ **Accepted** |
-| **H2** | Varimax/LASSO as top performers | Varimax & LASSO strong, but Intersection_All best overall. | ⚖️ **Partially Accepted** |
-| **H3** | Drop in PCC, ↑ RMSE after removing G1/G2 | Binary PCC: 91→83→67; Regression worsens similarly. | ✅ **Accepted** |
-| **H4** | Significant Friedman/Wilcoxon p-values | p-values extremely small (10⁻¹¹ – 10⁻⁷³). | ✅ **Accepted** |
-| **H5** | Hybrid methods competitive | Intersection_All shows highest consistency and significance. | ✅ **Accepted** |
 
-### 🔬 Summary Interpretation
-- **Intersection_All** emerges as the most statistically consistent and best overall FS strategy.  
-- **Varimax** and **LASSO** remain highly competitive but not always dominant.  
-- Excluding grade variables (G1, G2) significantly reduces predictive power.  
-- All FS-based models outperform the Naive Predictor in both classification and regression.  
+### 📊 Hypothesis Validation Summary
+
+| Hypothesis | Expected Outcome | Empirical Evidence (Tables 1–3) | Conclusion |
+|-------------|------------------|----------------------------------|-------------|
+| **H1** | FS > NVref | FS methods achieved +2–10% higher PCC and lower RMSE. | ✅ Accepted |
+| **H2** | FS methods differ in effectiveness | Significant variance among FS; Intersection_All best overall. | 🟡 Partially Supported |
+| **H3** | Dropping G1/G2 reduces performance | Binary PCC: 91→83→67; RMSE worsened. | ✅ Accepted |
+| **H4** | FS differences significant | Very low p-values (10⁻¹¹–10⁻⁷³) confirm significance. | ✅ Accepted |
+| **H5** | Hybrid FS most consistent | Intersection_All showed top accuracy & stability. | ✅ Accepted |
+
+
 
 ## 📊 Example Outputs
 
